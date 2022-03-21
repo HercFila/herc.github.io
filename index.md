@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ./Writeups
+title: ./index
 ---
 
 Hi I am Herc,  
