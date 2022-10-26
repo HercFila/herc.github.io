@@ -161,7 +161,7 @@ After couple of seconds we can see how the applciation crashed (in Paused state)
 
 This can be observed in Registers pane in debugger. We can see how EIP is overwritten with all A’s and EAX show the start of the command sent while ESP (stack pointer) also shows spiking script’s job :) all A’s.
 
-Here is also a great picture I found by googleing to better show you what is a actually happening on the stack once we overflow everything on the stack with A’s.
+Here is also a great picture I found by googling to better show you what is a actually happening on the stack once we overflow everything on the stack with A’s.
 
 <p align="center">
   <img src="https://i.postimg.cc/HkvWjZ8J/Untitled-10.png">
