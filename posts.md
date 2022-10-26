@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "./Writeups"
+title: "./posts"
 ---
 
 {% if site.show_excerpts %}
