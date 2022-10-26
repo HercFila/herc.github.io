@@ -1,3 +1,9 @@
+---
+title: "Windows Buffer Overflow Guide"
+layout: post
+categories: Tutorials
+---
+
 # Buffer Overflow
 
 [**Prerequisites**](Prerequisites.md)
