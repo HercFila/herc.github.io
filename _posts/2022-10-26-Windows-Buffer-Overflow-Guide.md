@@ -4,8 +4,6 @@ layout: post
 categories: Tutorials
 ---
 
-# Windows Buffer Overflow Guide
-
 [**Prerequisites**](Prerequisites.md)
 
 [1. Spiking](1.%20Spiking.md)
