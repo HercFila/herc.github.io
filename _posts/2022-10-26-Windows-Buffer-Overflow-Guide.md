@@ -630,7 +630,7 @@ Now run the exploit and BOOM here we have a shell on the system.
 
 As you can see we can also run the commands as expected. Now you understand how to make basic buffer overflow for windows applications.
 
-************************************************Quick Note: you might need to rerun the exploit couple of times or it may take a couple of seconds for your listener to catch the shell.************************************************
+**Quick Note: you might need to rerun the exploit couple of times or it may take a couple of seconds for your listener to catch the shell.**
 <br /><br /><br /><br />
 
 ## Real World?
