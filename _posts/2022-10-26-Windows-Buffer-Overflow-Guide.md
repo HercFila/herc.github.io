@@ -4,9 +4,9 @@ layout: post
 categories: Tutorials
 ---
 
-[**Prerequisites**](Prerequisites.md)
+[**Prerequisites**](2.%20Fuzzing.md)
 
-[1. Spiking](1.%20Spiking.md)
+[1. Spiking](https://github.com/HercFila/hercfila.github.io/blob/master/_posts/Buffer%20Overflow/1.%20Spiking.md)
 
 [2. Fuzzing](2.%20Fuzzing.md)
 
