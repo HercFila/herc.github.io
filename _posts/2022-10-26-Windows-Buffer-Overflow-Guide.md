@@ -7,6 +7,7 @@ categories: Tutorials
 [**Prerequisites**](2.%20Fuzzing.md)
 
 [1. Spiking](https://github.com/HercFila/hercfila.github.io/blob/master/_posts/Buffer%20Overflow/1.%20Spiking.md)
+{% include_relative _posts/Buffer%20Overflow/1.%20Spiking.md %}
 
 [2. Fuzzing](2.%20Fuzzing.md)
 
