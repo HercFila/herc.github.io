@@ -167,7 +167,7 @@ Here is also a great picture I found by googling to better show you what is a ac
   <img src="https://i.postimg.cc/HkvWjZ8J/Untitled-10.png">
 </p>
 
-Source: [https://www.securitysift.com/windows-exploit-development-part-2-intro-stack-overflow/](https://www.securitysift.com/windows-exploit-development-part-2-intro-stack-overflow/)  
+Source: https://subscription.packtpub.com/book/security/9781838822477/13/ch13lvl1sec75/exploiting-stack-based-buffer-overflows-with-metasploit
 <br /><br /><br /><br />
 # 2. Fuzzing
 
