@@ -29,4 +29,3 @@ Other: Video editing, Photo editing and Penetration Test Report Writing.
 - Advent Of Cyber 3 (TryHackMe) {Dec. 25, 2021}  
 - Red Teaming Learning Path (TryHackMe) {Oct. 12, 2022}  
 - Cyber Security Conference 2022 (Croatia) {Oct. 17, 2022}  
-- 
