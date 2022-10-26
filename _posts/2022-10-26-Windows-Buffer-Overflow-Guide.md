@@ -5,7 +5,7 @@ categories: Tutorials
 ---
 
 # Buffer Overflow
-<br /><br /><br />
+
 # Prerequisites
 
 ## Knowledge
@@ -83,7 +83,6 @@ After that in search box type ‘import mona’, this is also always necessary t
 </p>
 
 After pressing ENTER, If nothing comes up you are all set and ready to start exploit :)
-<br /><br /><br /><br />
 
 # 1. Spiking
 
@@ -164,11 +163,11 @@ This can be observed in Registers pane in debugger. We can see how EIP is overwr
 Here is also a great picture I found by googling to better show you what is a actually happening on the stack once we overflow everything on the stack with A’s.
 
 <p align="center">
-  <img src="https://i.postimg.cc/HkvWjZ8J/Untitled-10.png">
+  <img src="https://i.postimg.cc/tCbPVZPH/Screenshot-20221026-090012.png">
 </p>
 
 Source: https://subscription.packtpub.com/book/security/9781838822477/13/ch13lvl1sec75/exploiting-stack-based-buffer-overflows-with-metasploit
-<br /><br /><br /><br />
+
 # 2. Fuzzing
 
 With fuzzing we are going to try and find the number of bytes it took to crash the application since the spiking part was just to find which function was vulnerable and with fuzzing we are trying to narrow down the amount of bytes to get closer to the EIP to basically redirect programs execution to our code on the stack.
@@ -233,7 +232,7 @@ And as well we can see the registers full with A’s and ofcourse EIP overwriten
 <p align="center">
   <img src="https://i.postimg.cc/fT6BZZBk/Untitled-14.png">
 </p>
-<br /><br /><br /><br />
+
 
 # 3. Finding Offset
 
@@ -305,7 +304,7 @@ we provide the found EIP as -q parameter which will find the right offset until 
 </p>
 
 we can see the offset is 2003.
-<br /><br /><br /><br />
+
 
 # 4. Overwriting EIP
 
@@ -339,7 +338,7 @@ After executing the script we get what we expected
 </p>
 
 EIP is successfully controlled as expected.
-<br /><br /><br /><br />
+
 
 # 5. Finding Bad Characters
 
@@ -408,7 +407,7 @@ Its not that complicated just takes a little bit of time to find and you might m
 This part might seems tedious at first but trust me if you miss one bad bytes your shellcode won’t work and you will spend next several hours trying to find out what doesnt work.
 
 After you checked everything the bad byte in this case is only 0x00 (the null byte) by default ofcourse, the creator of vulnserver was kind looks like :)
-<br /><br /><br /><br />
+
 
 # 6. Finding Correct Module
 
@@ -532,7 +531,7 @@ To remove pretty simple just click that red circle again 2 times and you will se
 <p align="center">
   <img src="https://i.postimg.cc/CLhppGrz/Untitled-31.png">
 </p>
-<br /><br /><br /><br />
+
 
 # 7. Exploiting System
 
